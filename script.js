@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.classList.add("cat-card");
 
-        // Отмечаем любимцев красной рамкой
         if (cat.favourite) {
             card.classList.add("favourite");
         }
