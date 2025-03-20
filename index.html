@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики</title>
+    <style>
+        .cat-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 250px;
+            display: inline-block;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+        .cat-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .favourite {
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Котики</h1>
+<div id="catsContainer"></div>
+
+<!-- Подключаем сначала данные, потом скрипт -->
+<script src="cats.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
